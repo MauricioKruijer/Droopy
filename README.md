@@ -1,12 +1,11 @@
 Droopy: easy file receiving
 ======
-
 Mini Web server that let others upload files to your computer
 
 #How to use it?
-_Note: [[http://www.techkings.org/general-pc-chat/34104-droopy-tutorial.html](A tutorial on how to set up Droopy on Windows) was very kindly written by Ronan. The rest of this section focuses on Linux and MacOSX._
+_Note: [A tutorial on how to set up Droopy on Windows](http://www.techkings.org/general-pc-chat/34104-droopy-tutorial.html) was very kindly written by Ronan. The rest of this section focuses on Linux and MacOSX._
 
-Droopy is a command-line program. I'll suppose you’ve downloaded and saved the file in '''~/bin/'''. Go to the directory where you want the uploaded files to be stored, for example:
+Droopy is a command-line program. I'll suppose you’ve downloaded and saved the file in ```~/bin/```. Go to the directory where you want the uploaded files to be stored, for example:
 
 ```
 mkdir ~/uploads
@@ -23,7 +22,7 @@ And it's up and running on port 8000 of you computer. Check it out at http://loc
 
 ![ScreenShot](http://stackp.online.fr/wp-content/uploads/droopy-in-terminal.png)
 
-Type '''droopy -h''' to see all options:
+Type ```droopy -h``` to see all options:
 
 ```
 Usage: droopy [options] [PORT]
